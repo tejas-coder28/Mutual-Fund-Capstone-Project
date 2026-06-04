@@ -9,7 +9,7 @@ def clean_and_load_pipeline():
     processed_dir = "data/processed"
     os.makedirs(processed_dir, exist_ok=True)
     
-    db_path = "bluestock_mf.db"
+    db_path = "data/db/bluestock_mf.db"
     engine = create_engine(f"sqlite:///{db_path}")
     
     raw_files = glob.glob(os.path.join(raw_dir, "*.csv"))
