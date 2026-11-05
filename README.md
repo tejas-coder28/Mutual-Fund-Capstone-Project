@@ -8,19 +8,19 @@
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
 <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" />
-<img src="https://img.shields.io/github/last-commit/tejas-coder28/Mutual-Fund-Capstone-Project?style=flat-square&color=ef4444" />
+<img src="https://img.shields.io/github/last-commit/tejas-coder28/Mutual-Fund-Capstone-Project?style=flat-square&color=8b5cf6" />
 
 </div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=🎓%20ABOUT&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=🎓%20ABOUT&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 Retail and institutional investors often face fragmented data when evaluating mutual fund performance, systemic risk exposures, and underlying stock allocations across fund houses. This project solves that challenge by establishing a repeatable end-to-end analytics workflow: ingesting live and historical fund datasets, computing mathematical risk-adjusted return indicators, and storing structured relational models in SQLite. The compiled star-schema data model powers an interactive 4-page Power BI dashboard delivering deep visibility across macroeconomic metrics, risk-versus-return profiles, investor demographics, and underlying equity holdings.
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=✨%20FEATURES&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=✨%20FEATURES&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 - **Orchestrated ETL & Database Staging**: Automated pipeline (`etl_pipeline.py`, `rebuild_db.py`) that processes raw fund data and loads structured tables directly into an operational SQLite database (`bluestock_mf.db`).
 - **Live Net Asset Value (NAV) Ingestion**: Custom fetcher module (`live_nav_fetch.py`) consuming the public `api.mfapi.in` REST endpoint for real-time NAV records across premier Indian mutual fund schemes.
@@ -30,7 +30,7 @@ Retail and institutional investors often face fragmented data when evaluating mu
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=⚡%20TECH%20STACK&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=⚡%20TECH%20STACK&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 | Layer | Technology |
 |---|---|
@@ -43,7 +43,7 @@ Retail and institutional investors often face fragmented data when evaluating mu
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=🏗️%20ARCHITECTURE&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=🏗️%20ARCHITECTURE&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 ```mermaid
 flowchart TD
@@ -77,7 +77,7 @@ flowchart TD
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=🚀%20GETTING%20STARTED&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=🚀%20GETTING%20STARTED&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -128,7 +128,7 @@ Open [`dashboard/bluestock_mf.pbix`](file:///C:/Users/Tejas/Desktop/Mutual-Fund-
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=📁%20PROJECT%20STRUCTURE&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=📁%20PROJECT%20STRUCTURE&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 ```
 Mutual-Fund-Capstone-Project/
@@ -166,7 +166,7 @@ Mutual-Fund-Capstone-Project/
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=📸%20SCREENSHOTS&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=📸%20SCREENSHOTS&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 ### 1. Industry Overview
 *Tracking macro-level KPIs, total Assets Under Management (AUM), and fund category asset allocations.*
@@ -190,7 +190,7 @@ Mutual-Fund-Capstone-Project/
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=🔮%20FUTURE%20IMPROVEMENTS&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=🔮%20FUTURE%20IMPROVEMENTS&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 - **Automated Workflow Orchestration**: Integrate Apache Airflow or GitHub Actions cron runners to automate the daily `live_nav_fetch.py` ingestion and database sync.
 - **Predictive NAV & Volatility Modeling**: Implement ARIMA / Prophet time-series models to forecast volatility corridors and short-term NAV directional trends.
@@ -198,7 +198,7 @@ Mutual-Fund-Capstone-Project/
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:ef4444,100:0a1428&height=48&section=header&text=👤%20AUTHOR&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1428,50:8b5cf6,100:0a1428&height=48&section=header&text=👤%20AUTHOR&fontSize=22&fontColor=ffffff&fontAlignY=50" width="100%" />
 
 **Tejas Muralidhar**
 - GitHub: [@tejas-coder28](https://github.com/tejas-coder28)
